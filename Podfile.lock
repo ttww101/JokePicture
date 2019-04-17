@@ -1,0 +1,81 @@
+PODS:
+  - Alamofire (4.8.1)
+  - ApiAI (0.7.2):
+    - ApiAI/AudioFileConverter (= 0.7.2)
+    - ApiAI/Core (= 0.7.2)
+    - ApiAI/Events (= 0.7.2)
+    - ApiAI/ResponseMapping (= 0.7.2)
+    - ApiAI/UIKit (= 0.7.2)
+    - ApiAI/UserEntities (= 0.7.2)
+    - ApiAI/VoiceFileRequest (= 0.7.2)
+    - ApiAI/VoiceRequest (= 0.7.2)
+  - ApiAI/AudioFileConverter (0.7.2):
+    - ApiAI/Core
+  - ApiAI/Core (0.7.2)
+  - ApiAI/Events (0.7.2):
+    - ApiAI/Core
+  - ApiAI/ResponseMapping (0.7.2):
+    - ApiAI/Core
+  - ApiAI/UIKit (0.7.2):
+    - ApiAI/Core
+    - ApiAI/VoiceRequest
+  - ApiAI/UserEntities (0.7.2):
+    - ApiAI/Core
+  - ApiAI/VoiceFileRequest (0.7.2):
+    - ApiAI/Core
+  - ApiAI/VoiceRequest (0.7.2):
+    - ApiAI/Core
+  - AVOSCloud (11.5.2)
+  - AVOSCloudIM (11.5.2):
+    - AVOSCloud (= 11.5.2)
+    - AVOSCloudIM/_ARC (= 11.5.2)
+    - AVOSCloudIM/_NOARC (= 11.5.2)
+  - AVOSCloudIM/_ARC (11.5.2):
+    - AVOSCloud (= 11.5.2)
+    - AVOSCloudIM/_NOARC (= 11.5.2)
+  - AVOSCloudIM/_NOARC (11.5.2):
+    - AVOSCloud (= 11.5.2)
+  - JAnalytics (1.2.1):
+    - JCore (~> 1.2.0)
+  - JCore (1.2.6)
+  - JPush (3.1.2):
+    - JCore (~> 1.2.6)
+  - MessageInputBar/Core (0.4.1)
+  - MessageKit (2.0.0):
+    - MessageInputBar/Core
+
+DEPENDENCIES:
+  - Alamofire
+  - ApiAI
+  - AVOSCloud
+  - AVOSCloudIM
+  - JAnalytics
+  - JPush
+  - MessageKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - ApiAI
+    - AVOSCloud
+    - AVOSCloudIM
+    - JAnalytics
+    - JCore
+    - JPush
+    - MessageInputBar
+    - MessageKit
+
+SPEC CHECKSUMS:
+  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  ApiAI: d4b49d3736f33ce6f3ef66dc33c0e0fccb23579e
+  AVOSCloud: b3cb1ed20d46c0d55083363522cb2ea593d51ac7
+  AVOSCloudIM: ede93dc6155c3e73524469f5098a1ec2422915ae
+  JAnalytics: a65f716b383ad470aacd63a7af1984746cc3e06f
+  JCore: cae516dd2bf1a73b578ce6e1065abd49e709e0f7
+  JPush: d0cead70ba223a6a3b52749899ebda830dfbc49a
+  MessageInputBar: e81c7535347f1f7b923de7080409a535a004b6e4
+  MessageKit: 29c1c87e5a396d2ca7a3f712e5171dc9aba42a1e
+
+PODFILE CHECKSUM: 96a2b1b11bc62587a191d62840684105a8daa1af
+
+COCOAPODS: 1.6.1
